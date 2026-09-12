@@ -173,7 +173,7 @@ class MainActivity : AppCompatActivity() {
             setPadding(px(10f), 0, 0, 0)
         }
         titles.addView(TextView(this).apply {
-            text = "GPT 中转"
+            text = "GPT Free 代理"
             textSize = 16f
             setTextColor(Color.parseColor("#F2F6FF"))
             typeface = Typeface.DEFAULT_BOLD
@@ -590,7 +590,7 @@ class MainActivity : AppCompatActivity() {
     /** 把配置与日志打包进剪贴板，便于直接把问题贴出来。 */
     private fun copyDiagnostics() {
         val text = buildString {
-            appendLine("=== GPT中转 诊断 ===")
+            appendLine("=== GPT Free 代理 · 诊断 ===")
             appendLine("引擎: $engine")
             appendLine("核心运行中: ${core.isRunning()}")
             appendLine("节点数: ${nodes.size}")

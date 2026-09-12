@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 深色底 + 透明状态栏，配合极光背景与液态玻璃面板 -->
+    <style name="Theme.GptRelay" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">#FF7AA2FF</item>
+        <item name="colorOnPrimary">#FF0B1020</item>
+        <item name="colorSecondary">#FFA98BFF</item>
+        <item name="android:windowBackground">@color/app_bg</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:textColorPrimary">#FFF2F6FF</item>
+        <item name="android:textColorSecondary">#FF9FB0CC</item>
+    </style>
+</resources>

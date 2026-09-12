@@ -1,0 +1,25 @@
+# 构建产物
+build/
+app/build/
+.gradle/
+local.properties
+
+# 工具链与下载缓存（体积大，不入库）
+.toolchain/
+.downloads/
+sdk/
+
+# 第三方代理核心二进制：体积大且有独立许可证，请用 scripts/fetch-core.sh 自行获取
+app/src/main/jniLibs/**/*.so
+# 早期遗留的核心二进制（现已改用 jniLibs）
+app/src/main/assets/*
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# 系统
+.DS_Store
+Thumbs.db
+*.log

@@ -23,3 +23,7 @@ app/src/main/assets/*
 .DS_Store
 Thumbs.db
 *.log
+
+# DSH 插件：核心二进制与运行产物
+dsh-plugin/core/
+dsh-plugin/.runtime/

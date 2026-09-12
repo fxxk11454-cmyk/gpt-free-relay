@@ -15,7 +15,7 @@ android {
         minSdk = 24
         targetSdk = 35
         versionCode = 1
-        versionName = "1.0"
+        versionName = "1.0.0-beta"
         ndk {
             // 本机是 arm64（proot 用的是 lib/arm64），只打包这一种架构
             abiFilters += listOf("arm64-v8a")
